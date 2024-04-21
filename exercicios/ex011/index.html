@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-bt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML5</title>
+</head>
+<body>
+    <h1>Imagens dinámica</h1>
+<p>
+    tente abrir esse site em dispositivos difetentes ou simplesmente aumente e diminui o tamanho do seu navegador.
+</p>
+
+<picture>
+    <source media="(max-width: 750px)" srcset="imagens/foto-p.png" type="image/png">
+    <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">
+    <img src="imagens/foto-g.png" alt="Imagen flexível">
+</picture>
+    <h1>reproduzindo audio</h1>
+    <p>vamos aprender a reproduzir audio em HTML5</p>
+  
+    <audio preload="metadata" controls autoplay loop>
+        <source src="midia/frank-ocean-american-wedding.mp3" type="audio/mpeg">
+        <source src="midia/frank-ocean-american-wedding.ogg" type="audio/ogg">
+        <source src="midia/frank-ocean-american-wedding.wav" type="audio/wav">
+        <p>caso seu navagador não reproduzir, clique <a href="midia/frank-ocean-american-wedding.mp3">AQUI</a> para baixar</p>
+    </audio>
+    <!-- MP3 WAV OGG -->
+</body>
+</html>

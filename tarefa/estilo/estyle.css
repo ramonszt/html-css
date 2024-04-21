@@ -1,0 +1,156 @@
+@charset "UFTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Bebas+Neue&family=Jacquard+12+Charted&family=Righteous&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Jacquard+12+Charted&family=Righteous&display=swap');
+
+
+:root {
+    --cor00: #fff;
+    --cor01: #E3E3DA;
+    --cor02: #343A3D;
+    --cor03: #41597A;
+    --cor04: #a6ba34;
+    --cor05: #0e79d0;
+    --cor06: #000000;
+    --cor07: #212020;
+    --cor08: #b6b6b6;
+    --cor09: #0d528a;
+
+    --fonte-destaque: 'Bebas Neue';
+    --fonte-um: 'Abril Fatface';
+}
+
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+}
+
+
+
+header {
+    background-color: #222;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+header h1 {
+    font-family: var(--fonte-destaque);
+    font-weight: normal;
+
+    color: var(--cor00);
+    text-shadow: 0px 0px 6px rgba(0, 0, 0, 0.100);
+    font-size: 3.5em;
+    cursor: pointer;
+}
+
+nav {
+    
+}
+
+nav a {
+
+    font-size: 1em;
+    font-weight: 400;
+    color: var(--cor00);
+    text-decoration: none;
+
+    text-shadow: 0px 0px 8px rgba(0, 0, 0, 0.100);
+    transition-duration: 0.25s  ;
+}
+
+nav a:hover {
+    color: var(--cor00);
+    background-color: var(--cor05); 
+
+}
+
+main {
+    max-width: 650px;
+    min-width: 300px;
+    padding: 25px;
+    margin: auto;
+}
+
+main h1 {
+    font-weight: bold;
+    color: var(--cor06);
+    font-size: 2.4em;
+    padding-top: 5%;
+    padding-bottom: 4%;
+}
+
+main h2 {
+    font-size: 1.4em;
+    padding: 3%;
+}
+
+main img.imagen {
+    padding: 0px 15px 15px 20px; 
+    width: 90%;
+}
+
+main strong {
+    color: var(--cor05);
+    font-size: 1.1em;
+}
+
+main a {
+    text-decoration: none;
+    color: var(--cor09);
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+main a:hover {
+    color: var(--cor05);
+}
+
+main p {
+    padding-left: 3%;
+    font-size: 0.9em;
+    color: var(--cor07);
+    text-align: justify;
+    font-weight: lighter;
+    text-indent: 30px;
+    text-shadow: 0px 0px 1px rgba(0, 0, 0, 0.504);
+    max-width: 580px;
+
+    
+}
+div.video {
+    padding: 20px;
+    padding-bottom: 54%;
+    position: relative;
+}
+
+div.video iframe {
+    position: absolute;
+    top: 1%;
+    bottom: 5%;
+    width: 90%;
+    height: 90%;
+}
+
+footer {
+    background-color: var(--cor06);
+    color: var(--cor01);
+    text-align: center;
+    font-size: 0.8em;
+    font-weight: lighter;
+}
+
+footer strong {
+    font-weight: bold;
+    color: var(--cor00);
+}

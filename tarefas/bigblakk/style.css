@@ -1,0 +1,115 @@
+@font-face {
+    font-family: firts;
+    src: url(fonte/firstorder.ttf) format('truetype');
+}
+
+body {
+    background-color: #ffffff;
+    margin: 0px;
+}
+
+header {
+    background-image: linear-gradient(to right, #464646, #2c2c2c);
+    box-shadow: 0px 4px 30px #00000050;
+}
+
+.redesocial {
+    width: 25px;
+    margin-right: 50px;
+    padding: 7px 0px 3px 5px;
+}
+
+h1 {
+    font-family: night, arial, Helvetica, sans-serif;
+    font-size: 3.4em;
+    font-weight: bold;
+    text-decoration: none;
+    color: #CC0E33;
+    margin: 0px 0px 8px 0px; 
+    padding: 8px 0px 1px 5px;
+    text-align: center;
+}
+
+nav {
+    background-color: #cc0e33;
+    text-align: right;
+}
+
+article {
+    
+    font-family: night, Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+    margin: -870px 0px 0px 900px;
+}
+
+.normal {
+    color: #9A9A9A;
+    font-size: 14px;
+}
+
+a {
+    color: #CC0E33;
+    text-decoration: none;
+}
+
+a:hover {
+    color: darkred;
+}
+
+h2 {
+    color: #9A9A9A;
+    font-size: 20px;
+    
+}
+
+.imagen {
+    width: 110px;
+
+    margin: 0px 22.5px 0px 0px;
+}
+
+p {
+    padding-right: 20px;
+}
+
+.normal1 {
+    font-size: 10px;
+    color: #9A9A9A;
+}
+
+#reflexo {
+    font-size: 10px;
+}
+
+#albuns {
+    font-size: 20px;
+    color: #9A9A9A;
+    margin: 30px 0px 0px 0px ;
+    
+}
+
+.albuns {
+    text-align: center;
+    font-weight: bold;
+    font-size: 14pxpx;
+}
+
+#albunsh2 {
+    color: #CC0E33;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.albunsimg {
+    width: 200px;
+    padding-left: 340px;
+}
+
+#tracklist1 {
+    color: #000000;
+    font-weight: bold;
+    margin: -180px 0px 80px 550px;
+}

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelo de Caixa</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        
+        a {
+            text-decoration: none;
+            border-width: 2px;
+            border-style: solid;
+            border-color: royalblue;
+            
+            padding-top: 5px;
+            padding-right: 5px;
+            padding-bottom: 5px;
+            padding-left: 5px;
+        }
+
+        h1 {
+            background-color: lightgray;
+            height: 50px;
+            width: 413px;
+
+            /*
+            border-top: 3px;
+            border-right: 1px;
+            border-bottom: 8px;
+            border-left: 5px;
+            border-style: solid;
+            border-color: darkblue;
+            */
+
+            border: 5px solid darkblue;
+            
+            /*
+            padding-top: 0px;
+            padding-right: 10px;
+            padding-bottom: 0px;
+            padding-left: 10px;
+            
+            2 medidas funciona cima/baixo x direita/esquerda
+            */
+            
+            
+            padding: 0px 10px;
+
+            /*
+            margin-top: 20px;
+            margin-right: 10px;
+            margin-bottom: 40px;
+            margin-left: 15px;
+
+            margin-auto = centralizar
+
+            da pra centralizar e usar medidas, usando "auto" para left/right
+            */
+
+            margin: 20px auto 40px auto;
+
+            /*
+            outline-width: 10px;
+            outline-style: solid;
+            outline-color: rgba(147, 125, 245, 0.699)
+            */
+
+            outline: 10px solid rgba(147, 125, 245, 0.699);
+        }
+    </style>
+</head>
+<body>
+    <h1>exemplo de caixa box-level</h1>
+    <p>Parágrafos também são exemplo de box-level, mas os <a href="#">links são exemplo de inline-level</a>. vamos ver como tudo isso funciona</p>
+    
+</body>
+</html>
