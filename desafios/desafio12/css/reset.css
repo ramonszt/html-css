@@ -1,7 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&family=Short+Stack&display=swap');
+
+
+:root {
+    --fonte1: Arial, Helvetica, sans-serif;
+    --fonte2: 'Short Stack', cursive, sans-serif;
+    --fonte3: 'Nanum Pen Script', cursive, sans-serif;
+}
+
+
 * {
     margin: 0px;
     padding: 0px;
     font-family: Arial, Helvetica, sans-serif;
+
 }
 
 html, body {
@@ -15,6 +26,6 @@ html, body {
 
 a {
     text-decoration: none;
-    color: white;
+    color: rgb(224, 223, 223);
     font-weight: bolder;
 }
