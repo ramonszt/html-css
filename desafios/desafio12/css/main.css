@@ -1,0 +1,19 @@
+section {
+    padding: 10vh 0px;
+    line-height: 1.5em;
+    padding-left: 30px;
+}
+
+section.normal {
+    background-color: white;
+}
+
+section.imagen {
+    background: darkred;
+    color: white;
+}
+
+section.imagen p {
+    width: 400px;
+    background-color: #0000003b;
+}
