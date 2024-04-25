@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        * {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table {
+            width: 600px;
+            border-collapse: collapse;
+            position: relative;
+        }
+
+        td, th {
+            border: 1px solid rgb(0, 0, 0);
+            padding: 10px;
+        }
+
+        caption {
+            font-size: 1.5em;
+            font-weight: bold;
+            padding: 10px;
+            background-color: lightgray;
+        }
+
+        thead, tfoot {
+            background-color: rgb(46, 46, 46);
+            color: white;
+            font-weight: normal     ;
+        }
+
+        tbody tr:nth-child(odd) { /* 2n-1 */
+            background-color: rgb(189, 189, 189);
+        }
+ 
+        tbody tr:nth-child(even) { /* 2n */
+            background-color: white
+        }
+
+        .num {
+            text-align: right;
+        }
+
+        thead tr th {
+            position: sticky;
+            top: 0;
+            background-color: rgb(46, 46, 46);
+
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Uso de Tabelas Grandes</h1>
+
+    <table>
+        <caption>População das Unidades Federetivas
+        </caption>
+        <thead>
+            <tr>
+                <th scope="col">Estado</th>
+                <th scope="col" style="width: 100px;">População</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>São Paulo</td>
+                <td class="num">44 050 200</td>
+            </tr>
+            <tr>
+                <td>Minas de Gerais</td>
+                <td class="num">21 267 002</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="num">17 290 943</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th scope="row">Total de Habitantes</th>
+                <td><strong>210 147 125</strong></td>
+            </tr>
+        </tfoot>
+    </table>
+
+    <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam suscipit, quos quidem obcaecati ea, deleniti debitis qui nostrum sapiente rem adipisci, unde porro laboriosam architecto iusto sunt laudantium error veritatis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt illo, rem minima delectus aut, voluptatum perferendis vel quae at nostrum tempora similique? Error libero nam quas! Iusto blanditiis debitis voluptatibus. loren
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum doloribus ab neque minus, eligendi quisquam, ea consequatur error quia praesentium quaerat maiores esse. Qui at quod soluta eligendi explicabo sed. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Recusandae illum corrupti, animi veniam expedita minima dolore earum, perspiciatis nulla consequuntur aspernatur quibusdam consequatur, nihil quo? Totam distinctio repudiandae perspiciatis obcaecati? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corrupti consectetur tempore ab debitis minima amet cum, dolorem obcaecati id minus eveniet qui in eaque eos laudantium dolores officiis? Mollitia, officia!
+    </p>
+
+    
+    <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam suscipit, quos quidem obcaecati ea, deleniti debitis qui nostrum sapiente rem adipisci, unde porro laboriosam architecto iusto sunt laudantium error veritatis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt illo, rem minima delectus aut, voluptatum perferendis vel quae at nostrum tempora similique? Error libero nam quas! Iusto blanditiis debitis voluptatibus. loren
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum doloribus ab neque minus, eligendi quisquam, ea consequatur error quia praesentium quaerat maiores esse. Qui at quod soluta eligendi explicabo sed. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Recusandae illum corrupti, animi veniam expedita minima dolore earum, perspiciatis nulla consequuntur aspernatur quibusdam consequatur, nihil quo? Totam distinctio repudiandae perspiciatis obcaecati? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corrupti consectetur tempore ab debitis minima amet cum, dolorem obcaecati id minus eveniet qui in eaque eos laudantium dolores officiis? Mollitia, officia!
+    </p>
+
+    
+    <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam suscipit, quos quidem obcaecati ea, deleniti debitis qui nostrum sapiente rem adipisci, unde porro laboriosam architecto iusto sunt laudantium error veritatis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt illo, rem minima delectus aut, voluptatum perferendis vel quae at nostrum tempora similique? Error libero nam quas! Iusto blanditiis debitis voluptatibus. loren
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum doloribus ab neque minus, eligendi quisquam, ea consequatur error quia praesentium quaerat maiores esse. Qui at quod soluta eligendi explicabo sed. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Recusandae illum corrupti, animi veniam expedita minima dolore earum, perspiciatis nulla consequuntur aspernatur quibusdam consequatur, nihil quo? Totam distinctio repudiandae perspiciatis obcaecati? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corrupti consectetur tempore ab debitis minima amet cum, dolorem obcaecati id minus eveniet qui in eaque eos laudantium dolores officiis? Mollitia, officia!
+    </p>
+
+    
+    <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam suscipit, quos quidem obcaecati ea, deleniti debitis qui nostrum sapiente rem adipisci, unde porro laboriosam architecto iusto sunt laudantium error veritatis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt illo, rem minima delectus aut, voluptatum perferendis vel quae at nostrum tempora similique? Error libero nam quas! Iusto blanditiis debitis voluptatibus. loren
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum doloribus ab neque minus, eligendi quisquam, ea consequatur error quia praesentium quaerat maiores esse. Qui at quod soluta eligendi explicabo sed. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Recusandae illum corrupti, animi veniam expedita minima dolore earum, perspiciatis nulla consequuntur aspernatur quibusdam consequatur, nihil quo? Totam distinctio repudiandae perspiciatis obcaecati? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corrupti consectetur tempore ab debitis minima amet cum, dolorem obcaecati id minus eveniet qui in eaque eos laudantium dolores officiis? Mollitia, officia!
+    </p>
+
+    
+    <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam suscipit, quos quidem obcaecati ea, deleniti debitis qui nostrum sapiente rem adipisci, unde porro laboriosam architecto iusto sunt laudantium error veritatis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt illo, rem minima delectus aut, voluptatum perferendis vel quae at nostrum tempora similique? Error libero nam quas! Iusto blanditiis debitis voluptatibus. loren
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum doloribus ab neque minus, eligendi quisquam, ea consequatur error quia praesentium quaerat maiores esse. Qui at quod soluta eligendi explicabo sed. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Recusandae illum corrupti, animi veniam expedita minima dolore earum, perspiciatis nulla consequuntur aspernatur quibusdam consequatur, nihil quo? Totam distinctio repudiandae perspiciatis obcaecati? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corrupti consectetur tempore ab debitis minima amet cum, dolorem obcaecati id minus eveniet qui in eaque eos laudantium dolores officiis? Mollitia, officia!
+    </p>
+
+    
+    <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam suscipit, quos quidem obcaecati ea, deleniti debitis qui nostrum sapiente rem adipisci, unde porro laboriosam architecto iusto sunt laudantium error veritatis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt illo, rem minima delectus aut, voluptatum perferendis vel quae at nostrum tempora similique? Error libero nam quas! Iusto blanditiis debitis voluptatibus. loren
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum doloribus ab neque minus, eligendi quisquam, ea consequatur error quia praesentium quaerat maiores esse. Qui at quod soluta eligendi explicabo sed. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Recusandae illum corrupti, animi veniam expedita minima dolore earum, perspiciatis nulla consequuntur aspernatur quibusdam consequatur, nihil quo? Totam distinctio repudiandae perspiciatis obcaecati? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corrupti consectetur tempore ab debitis minima amet cum, dolorem obcaecati id minus eveniet qui in eaque eos laudantium dolores officiis? Mollitia, officia!
+    </p>
+</body>
+</html>
